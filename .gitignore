@@ -1,0 +1,22 @@
+# 模型权重（超过 GitHub 100MB 限制，且属于过程产物）
+*.pt
+weights/
+
+# 内部文档（含本地路径，不对公众开放）
+AI工作交接说明.md
+高含金量方向方案.md
+
+# 训练日志与缓存
+*.log
+.cache/
+.autol*
+__pycache__/
+*.pyc
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 数据集（竞赛数据，不公开）
+dataset_clean/
+dataset_yolo/
